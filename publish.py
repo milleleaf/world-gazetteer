@@ -14,7 +14,7 @@ REPO = 'milleleaf/world-gazetteer'
 DATASET_FILES = ['index.json', 'releases.json']
 BUCKET_FILES = ['index.json', 'releases.json', 'places.pmtiles', 'places.parquet', 'divisions.parquet', 'api/v1/countries.json',
                 'api/v1/index.json', 'LIMITATIONS.md']
-KAGGLE = ('helenkwok/world-gazetteer', 'AlreadyOpen: world gazetteer')   # the index of releases; archive.py makes one per release
+KAGGLE = ('helenkwok/world-gazetteer', 'Milleleaf: world gazetteer')   # the index of releases; archive.py makes one per release
 BUCKET = f'https://huggingface.co/buckets/{REPO}/resolve/'
 o = lambda f: os.path.join(sources.OUT, f)
 

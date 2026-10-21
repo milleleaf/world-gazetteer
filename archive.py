@@ -86,7 +86,7 @@ def ready(slug, minutes=20):
 
 def main():
     idx, _ = publish.checked()                                         # the publish gate first: nothing is archived past it
-    v = idx['release']; slug = f'helenkwok/world-gazetteer-{v.lower()}'; title = f'AlreadyOpen: world gazetteer {v}'
+    v = idx['release']; slug = f'helenkwok/world-gazetteer-{v.lower()}'; title = f'Milleleaf: world gazetteer {v}'
     k, files = stage(); want = expected(k, files)
     exists = kaggle('status', slug, capture_output=True).returncode == 0
     if not exists:
