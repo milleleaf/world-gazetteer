@@ -12,7 +12,7 @@ tags:
 
 Every country, administrative division and settlement in [PlaceDB](https://placedb.org), the CC0 gazetteer built from
 Wikidata by [mindstellar/location-data](https://github.com/mindstellar/location-data), mirrored by
-[AlreadyOpen/world-gazetteer](https://github.com/AlreadyOpen/world-gazetteer). It is checked weekly and copied when a new
+[AlreadyOpen/world-gazetteer](https://github.com/milleleaf/world-gazetteer). It is checked weekly and copied when a new
 PlaceDB release appears. Every file, row and field is kept.
 
 **Where things are.** The archive is on Kaggle: one dataset per PlaceDB release, `helenkwok/world-gazetteer-<release>`,

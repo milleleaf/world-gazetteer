@@ -10,7 +10,7 @@ import json, os, sys
 from huggingface_hub import HfApi, batch_bucket_files, create_bucket
 import manifest, sources
 
-REPO = 'alreadyopen/world-gazetteer'
+REPO = 'milleleaf/world-gazetteer'
 DATASET_FILES = ['index.json', 'releases.json']
 BUCKET_FILES = ['index.json', 'releases.json', 'places.pmtiles', 'places.parquet', 'divisions.parquet', 'api/v1/countries.json',
                 'api/v1/index.json', 'LIMITATIONS.md']

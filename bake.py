@@ -19,10 +19,10 @@ import manifest, sources
 
 REL, API = 'https://geo.mindstellar.com/releases/', 'https://api.placedb.org/v1/'
 DOCS = 'https://raw.githubusercontent.com/mindstellar/location-data/{}/docs/LIMITATIONS.md'
-REPO = 'alreadyopen/world-gazetteer'
+REPO = 'milleleaf/world-gazetteer'
 BUCKET = f'https://huggingface.co/buckets/{REPO}/resolve/'
 ONLY = [c for c in os.environ.get('COUNTRIES', '').split(',') if c]
-UA = {'User-Agent': 'AlreadyOpen world-gazetteer (https://github.com/AlreadyOpen/world-gazetteer)', 'Accept-Encoding': 'identity'}
+UA = {'User-Agent': 'AlreadyOpen world-gazetteer (https://github.com/milleleaf/world-gazetteer)', 'Accept-Encoding': 'identity'}
 # population -> first zoom: the biggest cities from z2, every settlement (and those with no population) by z10
 ZOOMS = [(5_000_000, 2), (1_000_000, 3), (300_000, 4), (100_000, 5), (30_000, 6), (10_000, 7), (3_000, 8), (1_000, 9)]
 MAXZOOM = 10

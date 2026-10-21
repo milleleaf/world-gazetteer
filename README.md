@@ -4,8 +4,8 @@ A mirror of [PlaceDB](https://placedb.org) ([mindstellar/location-data](https://
 built from Wikidata, CC0): every country, division and settlement, plus map files made from them. Checked weekly; a new
 PlaceDB release is archived whole on Kaggle (`helenkwok/world-gazetteer-<release>`, one dataset per release), and only once
 Kaggle lists that copy complete (every file, every size) are the map files on Hugging Face
-([dataset](https://huggingface.co/datasets/alreadyopen/world-gazetteer), [bucket](https://huggingface.co/buckets/alreadyopen/world-gazetteer))
-replaced. Built from [pipeline-template](https://github.com/AlreadyOpen/pipeline-template). The files are listed in
+([dataset](https://huggingface.co/datasets/milleleaf/world-gazetteer), [bucket](https://huggingface.co/buckets/milleleaf/world-gazetteer))
+replaced. Built from [pipeline-template](https://github.com/milleleaf/pipeline-template). The files are listed in
 `hf/README.md`; PlaceDB's known gaps are in its [LIMITATIONS.md](https://github.com/mindstellar/location-data/blob/main/docs/LIMITATIONS.md).
 
     COUNTRIES=HK,TW,PT python3 bake.py   # a test on a few countries (near/ left out); no COUNTRIES = everything (CI)
